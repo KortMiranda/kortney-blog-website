@@ -1,3 +1,5 @@
-.header-banner{
+.home-banner{
     width: 100%;
+    padding: 85px 0 85px 0;
+    background-color: var(--lavender);
 }
