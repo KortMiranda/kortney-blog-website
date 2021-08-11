@@ -40,8 +40,10 @@ export default function BlogFeed(props) {
                     <div className="post-item">
                         <Link to={`post/${preview.id}`} key={faCaretDown.id}>
                             <img src={preview.image} alt={preview.title}/>
-                            {/* <h3>{preview.title}</h3> */}
-                            {/* <p>{preview.natural_time}</p> */}
+                            <div className="post-hover">
+                            <h3>{preview.title}</h3>
+                            <p>{preview.natural_time}</p>
+                            </div>
                         </Link>
                     </div>
                 )
