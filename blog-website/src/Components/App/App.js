@@ -1,9 +1,10 @@
 import { Route, Switch } from 'react-router-dom'
-import NavBar from './components/NavBar'
-import About from './pages/About';
-import Home from './pages/Home'
-import Lifestyle from './pages/Lifestyle';
-import Tutorials from './pages/Tutorials';
+import './App.css'
+import NavBar from '../NavBar/NavBar'
+import About from '../Pages/About/About';
+import Home from '../Pages/Home/Home'
+import Lifestyle from '../Pages/Lifestyle/Lifestyle';
+import Tutorials from '../Pages/Tutorials/Tutorials';
 
 
 function App() {

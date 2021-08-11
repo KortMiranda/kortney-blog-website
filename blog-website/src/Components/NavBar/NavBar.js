@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/NavBar.css'
+import './NavBar.css'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
