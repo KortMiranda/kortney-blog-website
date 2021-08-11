@@ -1,0 +1,23 @@
+.feed-grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto; 
+}
+.post-item{
+    /* border: solid  */
+}
+.post-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.no-image{
+    margin: auto;
+}
+
+/* @media only screen and (max-width: 900px) {
+    .post-item {
+        width: 100%;
+    }
+} */
