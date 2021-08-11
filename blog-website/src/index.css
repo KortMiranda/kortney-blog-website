@@ -1,16 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Roboto&display=swap');
 
 :root{
-  --mainFade: rgba(255,255,255,0.3);
-  --mainBlack: #222;
-  --mainPink: #ffc6ff;
-  --mainPurple: #bdb2ff;
-  --mainDarkerBlue: #a0c4ff;
-  --mainLightBlue: #9bf6ff;
-  --mainGreen: #caffbf;
-  --mainYellow: #fdffb6;
-  --mainOrange: #ffd6a5;
-  --mainRed: #ffadad;
+  --mainWhite: #FBFDFE;
+  --mainBlack: #171810;
+  --mainBlue: #29F3E2;
+  --mainPurple: #C6488C;
   --mainSpacing: 0.3rem;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
@@ -26,6 +20,15 @@
 }
 
 body {
-    text-align: center
+    text-align: center;
+    background: var(--mainWhite);
+    color: var(--mainBlack);
+    font-family: 'Roboto', sans-serif;
 }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Fira Code', monospace;
+}
+
+
 

@@ -3,6 +3,14 @@
     height: 3rem;
     display: flex;
     align-items: center;
+    font-family: 'Fira Code', monospace;
+    font-weight: 300;
+}
+
+.nav-logo img{
+    width: 100%;
+    max-width: 225px;
+    margin-top: 4px;
 }
 
 .nav-center{
@@ -32,7 +40,7 @@
 }
 
 .nav-links a:hover {
-    color: var(--mainGreen);
+    color: var(--mainPurple);
     
 }
 
